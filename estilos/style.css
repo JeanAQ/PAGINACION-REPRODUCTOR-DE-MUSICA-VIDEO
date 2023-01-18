@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+body::-webkit-scrollbar{
+    width: 7px;
+    background-image: linear-gradient(180deg, #ff8ee6 0, #f17ee0 25%, #d86cd8 50%, #be5bd0 75%, #a44fcb 100%);
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button{
+   font-size: 1.25em;
+   font-weight: bold;
+   padding: 10px 30px;
+   border-radius: 5px;
+   border: 2px solid rgba(0, 0, 0, 0.3);
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+   color: #fff;
+    background-color: blueviolet;
+}  
+button:hover{
+    background-color: rgb(102, 32, 168);
+    cursor: pointer;
+    
+}
+.container1{
+    max-width: 1400px;
+    margin: auto;
+}
+.color-acento{ color: blueviolet;}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+header .logo{
+   margin: 0;
+   padding: 25px 30px;
+   font-weight: bold;
+   color: rgb(12, 11, 14);
+    font-size: 1.6em;
+}  
+header .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: blueviolet;
+}
+#seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 135vh;
+    color: white;
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),url(/imagenes/slipknot1.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#seccion1 h1{
+    color: white;
+}
+#seccion1 button{
+    font-size: 1.75em;
+}
+#seccion2 .container1{
+    text-align: center;
+    padding: 200px 12px;
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+#Nuestra-musica{
+    background-color: rgba(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+#Nuestra-musica .container1{
+    padding: 100px 0px;
+}
+#Nuestra-musica h2{
+    margin-top: 0px;
+    font-size: 3.2em;
+}
+#Nuestra-musica p{
+    display: none;
+}
+#Nuestra-musica .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+
+}
+.carta:first-child{
+    background-image: linear-gradient( 0deg, rgba(255,255,255,0.2),
+    rgba(0,0,0,0.5)),url(/imagenes/psychosocial.jpg);
+
+}
+.carta:nth-child(2){
+    background-image: linear-gradient( 0deg, rgba(255,255,255,0.2),
+    rgba(0,0,0,0.5)),url(/imagenes/waitandbleed.jpg);
+}
+.carta:last-child{
+    background-image: linear-gradient( 0deg, rgba(255,255,255,0.1),
+    rgba(0,0,0,0.5)),url(/imagenes/unsainted.jpg);
+}
+#caracteristicas .container1{
+    text-align: center;
+    padding: 250px 12px;
+    background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
+}
+#caracteristicas .container1 img{
+    width:500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -136px;
+    margin-left: 150px;
+}
+#caracteristicas li{
+    margin: 16px 0;
+    font-weight: bold;
+}
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(30, 30, 30);
+    color: white;
+    height: 80vh;
+}
+#final h2{
+    font-size: 5vw;
+}
+#final button{
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 300px;
+}
+#Nuestra-musica .carta p{
+    text-align: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+#Nuestra-musica .carta button{
+    
+
+}
+
+footer{
+    background-color: rgba(230,230,230);
+}
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgba(100, 100, 100);
+}
+footer .redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 116%;
+    gap: 1rem;
+
+}
+footer i:hover{
+    cursor: pointer;
+    background: rgba(216, 205, 205, 0.5);
+    border-radius: 50%;
+}
+footer .bi{
+    font-size: 4em;
+}
+footer .bi:first-child{
+    color: rgb(41, 168, 41);
+}
+footer .bi:nth-child(2){
+    color: rgb(45, 105, 196)
+}
+footer .bi:nth-child(3){
+    color: rgb(255, 0, 0);
+}
+footer .bi:last-child{
+    color: rgb(0, 255, 234);
+}
+footer .container1{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
+
+}
+.container1 p{
+    color: black;
+}
+@media (min-width: 720px){
+header{
+    position: fixed;
+    width: 100%;
+}
+header .container1{
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+#seccion2 .container1{
+    display: flex;
+    justify-content: space-between;
+}
+#seccion2 .img_container2{
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 900px;
+}
+#seccion2 .img_container2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#seccion2 .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#seccion2 h2{
+    margin-top: 0px;
+}
+#Nuestra-musica .Music{
+    display: flex;
+    justify-content: center;
+
+}
+#Nuestra-musica p{
+    display: block;
+    margin-bottom: 30px;
+}
+#Nuestra-musica h3{
+    margin-top: 0px;  
+}
+#Nuestra-musica .carta{
+    padding: 50px;   
+}
+#caracteristicas{
+    background-image: url(/imagenes/what-slipknot-songs-are-100-perfect-in-your-opinion-v0-a0yxp0cx5ew91.webp);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: calc(100vh - 500px) 120px;
+}
+#caracteristicas .container1{
+    text-align: initial;
+}
+#caracteristicas ul{
+    margin-left: 100px;
+}
+footer .container1{
+    align-items: flex-end;
+}
+@media (min-width: 1200px){
+    #caracteristicas{
+        background-position-x: calc(100vw - 800px);
+    }
+}
+@media (min-width: 615px){
+   #seccion2 .img_container2 img{
+
+   }
+}
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Moon Dance', cursive;
+}
+body{
+    background-image: radial-gradient(circle at 50% -20.71%, #fe8f62 0, #ff8564 8.33%, #ff7967 16.67%, #ff6c6b 25%, #fd5e6e 33.33%, #f84e73 41.67%, #f23c78 50%, #ea287e 58.33%, #e10e86 66.67%, #d6008f 75%, #ca0098 83.33%, #bb00a3 91.67%, #aa00ae 100%);
+    overflow-y: hidden;
+}
+body::-webkit-scrollbar{
+    width: 7px;
+    background-image: radial-gradient(circle at 82.26% 96.07%, #00ffff 0, #20e0ff 25%, #3cb5f2 50%, #ba40ba 75%, #743365 100%);
+}
+.bio h1{
+    font-size: 3.2em;
+    text-align: center;
+    color: rgb(228, 36, 36);
+    margin-top: -11px;
+    display: flex;
+}
+.tex p{
+    font-size: 2em;
+    text-align: center;
+    color: rgb(2, 3, 3);
+    margin-top: 20px;
+    text-align: initial;
+    margin-left: 20px;
+    text-decoration: double;
+    color: white;
+    margin-top: 80px;
+}
+.bio{
+    height: 50px;
+    display: flex;
+    top: 0;
+    right: 0;
+
+
+}
+.tex{
+    height: 600px;
+    width: 800px;
+    overflow-y: scroll;
+    position: absolute;
+}
+.tex::-webkit-scrollbar{
+    background-image: radial-gradient(circle at 82.26% 96.07%, #00ffff 0, #20e0ff 25%, #3cb5f2 50%, #408cba 75%, #3b6788 100%);
+}
